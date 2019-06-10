@@ -1,0 +1,22 @@
+{
+  "name": "@neovici/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint configuration for Neovici packages",
+  "homepage": "https://github.com/Neovici/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/Neovici/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neovici/eslint-config.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Cristian Necula <virusz@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 5"
+  }
+}
