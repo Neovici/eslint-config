@@ -8,6 +8,7 @@ module.exports = {
     fixture: "readonly",
     test: "readonly",
     sinon: "readonly",
-    chai: "readonly"
+    chai: "readonly",
+    WCT: "readonly"
   }
 };
