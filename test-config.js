@@ -3,11 +3,11 @@ module.exports = {
     mocha: true
   },
   globals: {
-    a11ySuite: false,
-    assert: false,
-    fixture: false,
-    test: false,
-    sinon: false,
-    chai: false
+    a11ySuite: "readonly",
+    assert: "readonly",
+    fixture: "readonly",
+    test: "readonly",
+    sinon: "readonly",
+    chai: "readonly"
   }
 };
