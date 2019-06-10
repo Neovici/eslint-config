@@ -10,5 +10,8 @@ module.exports = {
     sinon: "readonly",
     chai: "readonly",
     WCT: "readonly"
+  },
+  rules: {
+    "max-lines-per-function": "off"
   }
 };
