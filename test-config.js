@@ -1,17 +1,31 @@
 module.exports = {
+  parserOptions: {
+    // for async/await test functions
+    ecmaVersion: 8
+  },
   env: {
     mocha: true
   },
+  plugins: ["mocha"],
   globals: {
-    a11ySuite: "readonly",
-    assert: "readonly",
-    fixture: "readonly",
+    // added by mocha
     test: "readonly",
-    sinon: "readonly",
+    // added by chai
     chai: "readonly",
-    WCT: "readonly"
+    assert: "readonly",
+    expect: "readonly",
+    // added by test-fixture-mocha
+    fixture: "readonly",
+    // added by sinon
+    sinon: "readonly",
+    // added by wct-mocha
+    WCT: "readonly",
+    flush: "readonly"
   },
   rules: {
-    "max-lines-per-function": "off"
+    // tests can be as long as they need to be
+    "max-lines-per-function": "off",
+    // for chai expect syntax: `expect().to.be.ok`
+    "no-unused-expressions": "off"
   }
 };
