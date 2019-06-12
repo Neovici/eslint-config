@@ -25,6 +25,7 @@ module.exports = {
   rules: {
     // tests can be as long as they need to be
     "max-lines-per-function": "off",
+    "max-statements": "off",
     // for chai expect syntax: `expect().to.be.ok`
     "no-unused-expressions": "off"
   }
