@@ -3,8 +3,9 @@ module.exports = {
     browser: true,
     es6: true
   },
-  extends: "eslint:recommended",
+  extends: ["eslint:recommended", "plugin:import/recommended"],
   plugins: ["html"],
+  parser: "babel-eslint", // so dynamic `import` is recognized
   parserOptions: {
     sourceType: "module"
   },
@@ -207,6 +208,7 @@ module.exports = {
     "space-unary-ops": "error",
     strict: "error",
     "switch-colon-spacing": "error",
-    "valid-jsdoc": "warn"
+    "valid-jsdoc": "warn",
+    "import/no-extraneous-dependencies": "warn"
   }
 };
