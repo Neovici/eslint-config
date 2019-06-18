@@ -7,7 +7,7 @@ This is the shared ESLint configuration for Neovici packages.
 Add it to your package.json directly from the github repo:
 
 ```sh
-yarn add --dev @neovici/eslint-config@neovici/eslint-config#semver:~1.0.0
+yarn add --dev @neovici/eslint-config@neovici/eslint-config#semver:^1.0.0
 ```
 
 Then edit your eslint config to use it:
