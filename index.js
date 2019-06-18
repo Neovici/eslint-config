@@ -7,7 +7,8 @@ module.exports = {
   plugins: ["html"],
   parser: "babel-eslint", // so dynamic `import` is recognized
   parserOptions: {
-    sourceType: "module"
+    sourceType: "module",
+    ecmaVersion: 2018
   },
   rules: {
     "accessor-pairs": "warn",

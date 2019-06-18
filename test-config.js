@@ -1,7 +1,7 @@
 module.exports = {
   parserOptions: {
     // for async/await test functions
-    ecmaVersion: 8
+    ecmaVersion: 2018
   },
   env: {
     mocha: true
