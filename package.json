@@ -14,7 +14,14 @@
   "author": "Cristian Necula <virusz@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint *.js"
+  },
+  "devDependencies": {
+    "babel-eslint": ">= 10",
+    "eslint": ">= 5",
+    "eslint-plugin-html": ">= 5",
+    "eslint-plugin-mocha": ">= 5",
+    "eslint-plugin-import": ">= 2"
   },
   "peerDependencies": {
     "babel-eslint": ">= 10",
