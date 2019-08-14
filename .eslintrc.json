@@ -3,9 +3,5 @@
     "node": true
   },
   "extends": "./index.js",
-  "plugins": [],
-  "rules": {
-    "no-console": "error",
-    "no-debugger": "error"
-  }
+  "plugins": []
 }
