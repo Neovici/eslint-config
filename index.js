@@ -115,10 +115,10 @@ module.exports = {
 			}
 		],
 		'no-alert': 'error',
-		'no-bitwise': 'warn',
 		'no-autofix/no-console': 'error',
-		'no-const-assign': 'error',
 		'no-autofix/no-debugger': 'error',
+		'no-bitwise': 'warn',
+		'no-const-assign': 'error',
 		'no-dupe-class-members': 'error',
 		'no-duplicate-imports': 'error',
 		'no-else-return': 'error',
