@@ -115,6 +115,7 @@ module.exports = {
 			}
 		],
 		'no-alert': 'error',
+		"no-autofix/prefer-const": "error",
 		'no-bitwise': 'warn',
 		'no-console': 'error',
 		'no-const-assign': 'error',

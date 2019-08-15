@@ -20,8 +20,9 @@
     "babel-eslint": ">= 10",
     "eslint": "5.x",
     "eslint-plugin-html": ">= 5",
+    "eslint-plugin-import": ">= 2",
     "eslint-plugin-mocha": ">= 5",
-    "eslint-plugin-import": ">= 2"
+    "eslint-plugin-no-autofix": "0.0.3"
   },
   "peerDependencies": {
     "babel-eslint": ">= 10",
