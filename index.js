@@ -115,8 +115,9 @@ module.exports = {
 			}
 		],
 		'no-alert': 'error',
+		'no-autofix/no-console': 'error',
+		'no-autofix/no-debugger': 'error',
 		'no-bitwise': 'warn',
-		'no-console': 'off',
 		'no-const-assign': 'error',
 		'no-dupe-class-members': 'error',
 		'no-duplicate-imports': 'error',
