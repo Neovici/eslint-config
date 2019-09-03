@@ -184,6 +184,7 @@ module.exports = {
 		'one-var-declaration-per-line': ['error', 'always'],
 		'prefer-arrow-callback': 'error',
 		'prefer-const': 'warn',
+		'quote-props': ['error', 'as-needed'],
 		quotes: ['error', 'single'],
 		radix: 'error',
 		'require-unicode-regexp': 'error',
