@@ -1,0 +1,27 @@
+name: Github CI
+on:
+  pull_request:
+    branches:
+      - master
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Use Node.js 10.x
+      uses: actions/setup-node@v1
+      with:
+        version: 10.x
+
+    - name: Install
+      run: npm install
+
+    - name: Annotated ESLint
+      uses: gimenete/eslint-action@1.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
