@@ -29,5 +29,8 @@
     "eslint-plugin-html": ">= 5",
     "eslint-plugin-mocha": ">= 5",
     "eslint-plugin-import": ">= 2"
+  },
+  "dependencies": {
+    "@neovici/github-actions-eslint-annotator": "^0.1.1"
   }
 }
