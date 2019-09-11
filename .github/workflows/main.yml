@@ -21,7 +21,7 @@ jobs:
     - name: Install
       run: npm install
 
-    - name: Annotated ESLint
-      uses: gimenete/eslint-action@1.0
+    - name: ESLint
+      run: npx github-actions-eslint-annotator
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
