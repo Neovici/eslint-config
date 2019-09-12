@@ -1,6 +1,6 @@
 {
   "name": "@neovici/eslint-config",
-  "version": "1.1.2",
+  "version": "1.1.5",
   "description": "ESLint configuration for Neovici packages",
   "homepage": "https://github.com/Neovici/eslint-config#readme",
   "bugs": {
@@ -11,26 +11,17 @@
     "url": "git+https://github.com/Neovici/eslint-config.git"
   },
   "license": "Apache-2.0",
-  "author": "Cristian Necula <virusz@gmail.com>",
+  "author": "Neovici dev",
   "main": "index.js",
   "scripts": {
     "test": "eslint *.js"
   },
-  "devDependencies": {
+  "dependencies": {
+    "@neovici/github-actions-eslint-annotator": "^0.1.4",
     "babel-eslint": ">= 10",
     "eslint": "5.x",
     "eslint-plugin-html": ">= 5",
     "eslint-plugin-import": ">= 2",
     "eslint-plugin-mocha": ">= 5"
-  },
-  "peerDependencies": {
-    "babel-eslint": ">= 10",
-    "eslint": ">= 5",
-    "eslint-plugin-html": ">= 5",
-    "eslint-plugin-mocha": ">= 5",
-    "eslint-plugin-import": ">= 2"
-  },
-  "dependencies": {
-    "@neovici/github-actions-eslint-annotator": "^0.1.1"
   }
 }
