@@ -177,8 +177,9 @@ module.exports = {
 		'one-var': [
 			'error',
 			{
-				var: 'always',
-				let: 'always'
+				const: 'consecutive',
+				let: 'always',
+				var: 'always'
 			}
 		],
 		'one-var-declaration-per-line': ['error', 'always'],
