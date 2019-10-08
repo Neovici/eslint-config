@@ -19,9 +19,19 @@ jobs:
         version: 10.x
 
     - name: Install
-      run: npm install
+      run: npm ci
+
+    - name: Lint commit messages
+      run: npx commitlint --from origin/master --to HEAD
 
     - name: ESLint
       run: npx github-actions-eslint-annotator
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Semantic release
+      run: npx semantic-release
+      if: success()
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -16,12 +16,44 @@
   "scripts": {
     "test": "eslint *.js"
   },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/github",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ],
+    "branch": "master"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "dependencies": {
-    "@neovici/github-actions-eslint-annotator": "^0.1.4",
     "babel-eslint": ">= 10",
     "eslint": "5.x",
     "eslint-plugin-html": ">= 5",
     "eslint-plugin-import": ">= 2",
     "eslint-plugin-mocha": ">= 5"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@neovici/github-actions-eslint-annotator": "^0.2.0",
+    "@semantic-release/changelog": "^3.0.4",
+    "@semantic-release/git": "^7.0.16",
+    "husky": "^3.0.8",
+    "semantic-release": "^16.0.0-beta.25"
   }
 }
