@@ -1,5 +1,5 @@
 {
-    "eslint.packageManager": "yarn",
+    "eslint.packageManager": "npm",
     "eslint.validate": [ "javascript", "html" ],
     "files.watcherExclude": {
         "**/.git/objects/**": true,
