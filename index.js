@@ -11,7 +11,7 @@ module.exports = {
 		ecmaVersion: 2018
 	},
 	rules: {
-		'accessor-pairs': 'warn',
+		'accessor-pairs': 'error',
 		'array-bracket-newline': ['error', 'consistent'],
 		'array-bracket-spacing': ['error', 'never'],
 		'array-element-newline': ['error', 'consistent'],
@@ -28,6 +28,7 @@ module.exports = {
 		'block-spacing': 'error',
 		'brace-style': 'error',
 		camelcase: 'error',
+		'class-methods-use-this': 'warn',
 		'comma-dangle': ['error', 'never'],
 		'comma-spacing': [
 			'error',
@@ -49,6 +50,7 @@ module.exports = {
 		'func-names': ['error', 'never'],
 		'func-style': ['error', 'expression'],
 		'guard-for-in': 'error',
+		'import/no-extraneous-dependencies': 'warn',
 		indent: ['error', 'tab'],
 		'key-spacing': [
 			'error',
@@ -101,7 +103,7 @@ module.exports = {
 		],
 		'multiline-ternary': ['error', 'always-multiline'],
 		'new-cap': [
-			'warn',
+			'error',
 			{
 				capIsNew: true,
 				newIsCap: true
@@ -117,7 +119,7 @@ module.exports = {
 		'no-alert': 'error',
 		'no-console': 'error',
 		'no-debugger': 'error',
-		'no-bitwise': 'warn',
+		'no-bitwise': 'error',
 		'no-const-assign': 'error',
 		'no-dupe-class-members': 'error',
 		'no-duplicate-imports': 'error',
@@ -184,7 +186,7 @@ module.exports = {
 		],
 		'one-var-declaration-per-line': ['error', 'always'],
 		'prefer-arrow-callback': 'error',
-		'prefer-const': 'warn',
+		'prefer-const': 'error',
 		'quote-props': ['error', 'as-needed'],
 		quotes: ['error', 'single'],
 		radix: 'error',
@@ -212,7 +214,6 @@ module.exports = {
 		'space-unary-ops': 'error',
 		strict: 'error',
 		'switch-colon-spacing': 'error',
-		'valid-jsdoc': 'warn',
-		'import/no-extraneous-dependencies': 'warn'
+		'valid-jsdoc': 'warn'
 	}
 };
