@@ -1,0 +1,12 @@
+{
+    "eslint.packageManager": "yarn",
+    "eslint.validate": [ "javascript", "html" ],
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+}
