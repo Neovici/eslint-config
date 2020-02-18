@@ -1,3 +1,11 @@
+## [1.1.9](https://github.com/Neovici/eslint-config/compare/v1.1.8...v1.1.9) (2020-02-18)
+
+
+### Bug Fixes
+
+* drop class-methods-use-this, add object guideline rules ([90606c2](https://github.com/Neovici/eslint-config/commit/90606c2854c4a6c890d57faf4c257c891cf992da))
+* **vscode:** set npm package manager ([7c6c9b9](https://github.com/Neovici/eslint-config/commit/7c6c9b95becf9d5058e000e99e8c8703ba8df40b))
+
 ## [1.1.8](https://github.com/Neovici/eslint-config/compare/v1.1.7...v1.1.8) (2020-02-18)
 
 
