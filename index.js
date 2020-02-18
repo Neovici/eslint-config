@@ -28,7 +28,6 @@ module.exports = {
 		'block-spacing': 'error',
 		'brace-style': 'error',
 		camelcase: 'error',
-		'class-methods-use-this': 'warn',
 		'comma-dangle': ['error', 'never'],
 		'comma-spacing': [
 			'error',
@@ -164,17 +163,22 @@ module.exports = {
 		'no-whitespace-before-property': 'error',
 		'no-with': 'error',
 		'object-curly-newline': [
-			'error',
+			'warn',
 			{
-				consistent: true
+				consistent: true,
+				minProperties: 2,
+				multiline: true
 			}
 		],
-		'object-property-newline': [
-			'error',
+		'object-curly-spacing': [
+			'warn',
+			'always',
 			{
-				allowAllPropertiesOnSameLine: true
+				arraysInObjects: false,
+				objectsInObjects: false
 			}
 		],
+		'object-property-newline': ['warn'],
 		'object-shorthand': ['error', 'always'],
 		'one-var': [
 			'error',
