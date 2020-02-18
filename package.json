@@ -44,16 +44,16 @@
     "babel-eslint": ">= 10",
     "eslint": "5.x",
     "eslint-plugin-html": ">= 5",
-    "eslint-plugin-import": ">= 2",
-    "eslint-plugin-mocha": ">= 5"
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-mocha": "^6.2.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
-    "@commitlint/config-conventional": "^8.2.0",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
     "@neovici/github-actions-eslint-annotator": "^0.2.0",
-    "@semantic-release/changelog": "^3.0.4",
-    "@semantic-release/git": "^7.0.16",
-    "husky": "^3.0.8",
-    "semantic-release": "^16.0.0-beta.25"
+    "@semantic-release/changelog": "^3.0.6",
+    "@semantic-release/git": "^7.0.18",
+    "husky": "^3.1.0",
+    "semantic-release": "^16.0.4"
   }
 }
