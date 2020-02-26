@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Neovici/eslint-config/compare/v1.1.9...v1.2.0) (2020-02-26)
+
+
+### Features
+
+* increase valid-jsdoc from warning to error ([a17bf11](https://github.com/Neovici/eslint-config/commit/a17bf11e771a97c61bd7aacc6aca76a21a24c16c)), closes [#20](https://github.com/Neovici/eslint-config/issues/20)
+
 ## [1.1.9](https://github.com/Neovici/eslint-config/compare/v1.1.8...v1.1.9) (2020-02-18)
 
 
