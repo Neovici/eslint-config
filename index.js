@@ -50,6 +50,7 @@ module.exports = {
 		'func-style': ['error', 'expression'],
 		'guard-for-in': 'error',
 		'import/no-extraneous-dependencies': 'warn',
+		'import/group-exports': 'error',
 		indent: ['error', 'tab'],
 		'key-spacing': [
 			'error',
