@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/Neovici/eslint-config/compare/v1.2.0...v1.2.1) (2020-04-10)
+
+
+### Bug Fixes
+
+* enforce grouped exports ([91381f3](https://github.com/Neovici/eslint-config/commit/91381f3a1f453fc77304a50815ba902db2c97c3a))
+
 # [1.2.0](https://github.com/Neovici/eslint-config/compare/v1.1.9...v1.2.0) (2020-02-26)
 
 
