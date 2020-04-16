@@ -1,6 +1,6 @@
 {
     "eslint.packageManager": "npm",
-    "eslint.validate": [ "javascript", "html" ],
+    "eslint.validate": [ "javascript" ],
     "files.watcherExclude": {
         "**/.git/objects/**": true,
         "**/.git/subtree-cache/**": true,

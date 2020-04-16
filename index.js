@@ -219,6 +219,7 @@ module.exports = {
 		'space-unary-ops': 'error',
 		strict: 'error',
 		'switch-colon-spacing': 'error',
+		'template-curly-spacing': ['error', 'always'],
 		'valid-jsdoc': 'error'
 	}
 };

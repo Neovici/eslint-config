@@ -13,6 +13,10 @@
   "license": "Apache-2.0",
   "author": "Neovici dev",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "test-config.js"
+  ],
   "scripts": {
     "test": "eslint *.js"
   },
@@ -41,19 +45,18 @@
     }
   },
   "dependencies": {
-    "babel-eslint": ">= 10",
-    "eslint": "5.x",
-    "eslint-plugin-html": ">= 5",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-mocha": "^6.2.2"
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-html": "^6.0.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-mocha": "^6.3.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "@neovici/github-actions-eslint-annotator": "^0.2.0",
-    "@semantic-release/changelog": "^3.0.6",
-    "@semantic-release/git": "^7.0.18",
-    "husky": "^3.1.0",
-    "semantic-release": "^16.0.4"
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "husky": "^4.2.5",
+    "semantic-release": "^17.0.4"
   }
 }
