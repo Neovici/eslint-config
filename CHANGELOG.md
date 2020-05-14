@@ -1,3 +1,11 @@
+## [1.2.2](https://github.com/Neovici/eslint-config/compare/v1.2.1...v1.2.2) (2020-05-14)
+
+
+### Bug Fixes
+
+* run test (eslint) instead of lint ([#25](https://github.com/Neovici/eslint-config/issues/25)) ([55787b1](https://github.com/Neovici/eslint-config/commit/55787b18d01080c45ad8bfe6f770fd24ec0eaeb5))
+* template-curly-spacing: enforce guideline ([adb14ee](https://github.com/Neovici/eslint-config/commit/adb14ee40872cb2bd7a02824fe49dba71b41633c))
+
 ## [1.2.1](https://github.com/Neovici/eslint-config/compare/v1.2.0...v1.2.1) (2020-04-10)
 
 
