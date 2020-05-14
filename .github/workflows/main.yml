@@ -24,8 +24,8 @@ jobs:
     - name: Lint commit messages
       run: npx commitlint --from origin/master --to HEAD
 
-    - name: ESLint
-      run: npm run lint
+    - name: Test (ESLint)
+      run: npm test
 
     - name: Semantic release
       run: npx semantic-release
