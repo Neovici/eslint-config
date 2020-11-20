@@ -1,6 +1,6 @@
 {
   "name": "@neovici/eslint-config",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "ESLint configuration for Neovici packages",
   "homepage": "https://github.com/Neovici/eslint-config#readme",
   "bugs": {

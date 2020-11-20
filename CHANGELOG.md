@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/Neovici/eslint-config/compare/v1.3.0...v1.3.1) (2020-11-20)
+
+
+### Bug Fixes
+
+* replace babel-eslint to @babel/eslint-parser ([f3010b8](https://github.com/Neovici/eslint-config/commit/f3010b8cfda41b96288fab1bad1d5e577608df2c))
+
 # [1.3.0](https://github.com/Neovici/eslint-config/compare/v1.2.2...v1.3.0) (2020-10-03)
 
 
