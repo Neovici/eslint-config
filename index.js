@@ -5,10 +5,11 @@ module.exports = {
 	},
 	extends: ['eslint:recommended', 'plugin:import/recommended'],
 	plugins: ['html'],
-	parser: 'babel-eslint', // so dynamic `import` is recognized
+	parser: '@babel/eslint-parser', // so dynamic `import` is recognized
 	parserOptions: {
 		sourceType: 'module',
-		ecmaVersion: 2018
+		ecmaVersion: 2018,
+		requireConfigFile: false
 	},
 	rules: {
 		'accessor-pairs': 'error',
