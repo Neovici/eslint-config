@@ -164,14 +164,6 @@ module.exports = {
 		'no-void': 'error',
 		'no-whitespace-before-property': 'error',
 		'no-with': 'error',
-		'object-curly-newline': [
-			'warn',
-			{
-				consistent: true,
-				minProperties: 2,
-				multiline: true
-			}
-		],
 		'object-curly-spacing': [
 			'warn',
 			'always',
@@ -180,7 +172,6 @@ module.exports = {
 				objectsInObjects: false
 			}
 		],
-		'object-property-newline': ['warn'],
 		'object-shorthand': ['error', 'always'],
 		'one-var': [
 			'error',
