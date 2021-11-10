@@ -45,19 +45,19 @@
     }
   },
   "dependencies": {
-    "@babel/core": "^7.12.3",
-    "@babel/eslint-parser": "^7.12.1",
-    "eslint": "^7.13.0",
-    "eslint-plugin-html": "^6.1.0",
-    "eslint-plugin-import": "^2.21.0",
-    "eslint-plugin-mocha": "^8.0.0"
+    "@babel/core": "^7.16.0",
+    "@babel/eslint-parser": "^7.16.0",
+    "eslint": "^8.2.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.0",
+    "eslint-plugin-mocha": "^9.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/git": "^9.0.0",
+    "@commitlint/cli": "^14.0.0",
+    "@commitlint/config-conventional": "^14.0.0",
+    "@semantic-release/changelog": "^6.0.0",
+    "@semantic-release/git": "^10.0.0",
     "husky": "^4.3.0",
-    "semantic-release": "^17.2.0"
+    "semantic-release": "^18.0.0"
   }
 }
