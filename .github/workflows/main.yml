@@ -20,11 +20,8 @@ jobs:
       with:
         node-version: '14'
 
-    - name: Install
-      run: npm ci
-
     - name: Lint commit messages
-      run: npx commitlint --from origin/master --to HEAD
+      uses: wagoid/commitlint-github-action@v3
 
     - name: Test (ESLint)
       run: npm test
