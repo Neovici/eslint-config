@@ -20,6 +20,9 @@ jobs:
       with:
         node-version: '14'
 
+    - name: Install
+      run: npm ci
+
     - name: Lint commit messages
       uses: wagoid/commitlint-github-action@v3
 
