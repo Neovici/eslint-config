@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/Neovici/eslint-config/compare/v1.3.2...v1.3.3) (2021-11-10)
+
+
+### Bug Fixes
+
+* **deps:** upgrade ([35da403](https://github.com/Neovici/eslint-config/commit/35da403ad558af957207ee24ab2e8d91770217af))
+
 ## [1.3.2](https://github.com/Neovici/eslint-config/compare/v1.3.1...v1.3.2) (2021-04-08)
 
 
